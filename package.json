@@ -1,6 +1,6 @@
 {
-  "name": "get-folder-size",
-  "version": "2.0.1",
+  "name": "@peerflix/get-folder-size",
+  "version": "2.0.2",
   "description": "Get the size of a folder by recursively iterating through all its sub(files && folders).",
   "main": "index.js",
   "bin": {
@@ -26,8 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alessioalex/get-folder-size.git"
+    "url": "https://github.com/peerflix/get-folder-size.git"
   },
-  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
-  "license": "MIT"
+  "author": "SeriouSeven <peerflix@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peerflix/get-folder-size/issues"
+  },
+  "homepage": "https://github.com/peerflix/get-folder-size#readme"
 }

@@ -18,6 +18,7 @@ function readSizeRecursive(seen, item, ignoreRegEx, callback) {
 
   fs.lstat(item, function lstat(e, stats) {
     let total = !e ? (stats.size || 0) : 0;
+    if (!seen.size) { total = 0; }
 
     if (stats) {
       if (seen.has(stats.ino)) { return cb(null, 0); }
